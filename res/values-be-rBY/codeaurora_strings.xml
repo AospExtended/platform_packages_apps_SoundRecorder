@@ -30,4 +30,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="rename_dialog_save">Захаваць</string>
+  <string name="delete_dialog_confirm">Выдаліць</string>
+  <string name="action_mode_menu_edit">Рэдагаваць</string>
+  <string name="action_mode_menu_delete">Выдаліць</string>
 </resources>

@@ -47,7 +47,7 @@
   <string name="file_list_empty">Nu sunt înregistrări</string>
   <string name="file_list_FM">Înregistrări FM</string>
   <string name="file_list_call">Înregistrări apeluri</string>
-  <string name="action_mode_menu_edit">Editează</string>
+  <string name="action_mode_menu_edit">Editaţi</string>
   <string name="action_mode_menu_share">Distribuiţi</string>
   <string name="action_mode_menu_delete">Ștergeţi</string>
   <plurals name="action_mode_selected">

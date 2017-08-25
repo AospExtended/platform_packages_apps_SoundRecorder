@@ -41,6 +41,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g>秒録音可能</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">完了</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">破棄</string>
   <!-- acknowlegement button in a number of dialogs -->
@@ -63,11 +64,23 @@
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">内部アプリケーションエラーが発生しました。</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">サポートされないフォーマット</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">録音を保存できませんでした。</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">AACの音声通話録音はサポートされていません</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">ファイル形式</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">ストレージの場所</string>
+  <string name="storage_setting_sdcard_item">SDカード</string>
+  <string name="storage_setting_local_item">端末のストレージ</string>
+  <string name="no_phonestorage">端末のストレージがマウントされていません</string>
+  <string name="keyboard">キーボード</string>
   <!-- Label shown during recording -->
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
   <!-- shown as the message in a dialog when the recording file is discarded -->

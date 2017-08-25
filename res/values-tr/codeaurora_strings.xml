@@ -30,15 +30,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Kaydedilsin mi?</string>
+  <string name="rename_dialog_title">Yeniden adlandır</string>
+  <string name="rename_dialog_info_null">Dosya adı null olamaz.</string>
+  <string name="rename_dialog_info_exists">İsim zaten mevcut.</string>
+  <string name="rename_dialog_info_length_limit">Maksimum karakter sınırına ulaşıldı.</string>
   <string name="delete_dialog_confirm">Sil</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Seçilen öğe silinsin mi?</item>
     <item quantity="other">Seçilen öğeler silinsin mi?</item>
   </plurals>
   <string name="share_title">Paylaş</string>
+  <string name="file_list_activity_label">Kayıt listesi</string>
+  <string name="file_list_empty">Kayıt yok</string>
+  <string name="file_list_FM">FM kayıtları</string>
+  <string name="file_list_call">Arama kaydı</string>
   <string name="action_mode_menu_edit">Düzenle</string>
   <string name="action_mode_menu_share">Paylaş</string>
   <string name="action_mode_menu_delete">Sil</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d öğe seçildi</item>
+    <item quantity="other">%d öğeler seçildi</item>
+  </plurals>
   <string name="action_mode_select_all">Tümünü seç</string>
   <string name="action_mode_deselect_all">Tümünün seçimini kaldır</string>
 </resources>

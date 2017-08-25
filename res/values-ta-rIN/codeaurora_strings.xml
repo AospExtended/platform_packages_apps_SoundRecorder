@@ -30,4 +30,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="action_mode_menu_edit">திருத்தம்</string>
 </resources>

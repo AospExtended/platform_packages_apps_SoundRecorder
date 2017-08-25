@@ -30,12 +30,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="rename_dialog_info_length_limit">文字数の上限に達しました。</string>
+  <string name="delete_dialog_confirm">削除</string>
   <plurals name="delete_selection_message">
     <item quantity="other">アイテムを削除しますか？</item>
   </plurals>
   <string name="share_title">共有</string>
   <string name="action_mode_menu_edit">編集</string>
   <string name="action_mode_menu_share">共有</string>
+  <string name="action_mode_menu_delete">削除</string>
   <string name="action_mode_select_all">すべて選択</string>
   <string name="action_mode_deselect_all">選択をすべて解除</string>
 </resources>
