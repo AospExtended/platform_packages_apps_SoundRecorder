@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">音声レコーダー</string>
+  <string name="folder_name">録音中</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">メッセージの録音</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">メッセージの確認</string>
   <!-- Label shown during recording -->
+  <string name="recording">録音中</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">一時停止</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
