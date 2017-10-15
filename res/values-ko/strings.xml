@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">Sound Recorder</string>
+  <string name="folder_name">녹음 중</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">메시지 녹음</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">메시지 재생</string>
   <!-- Label shown during recording -->
+  <string name="recording">녹음 중</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">일시 정지</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
@@ -41,14 +43,21 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g>초 녹음 가능</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">완료</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">취소</string>
   <!-- acknowlegement button in a number of dialogs -->
   <string name="button_ok">확인</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP and Press record</string>
+  <string name="press_record2">녹음버튼을 누르세요.</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP and Press record</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">내 콘텐츠</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -60,15 +69,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">SD 카드에 액세스할 수 없습니다.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">녹음이 중단되었습니다.</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">내부 애플리케이션 오류</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">지원되지 않는 형식</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">녹음된 오디오를 저장할 수 없습니다.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">이 옵션은 통화중일 경우에만 지원됩니다.</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">AAC 음성통화 녹음은 지원되지 않습니다</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">파일 형식</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">저장소 위치</string>
+  <string name="storage_setting_sdcard_item">SD 카드</string>
+  <string name="storage_setting_local_item">휴대전화 저장소</string>
+  <string name="no_phonestorage">휴대전화 저장소 분리됨</string>
+  <string name="keyboard">키보드</string>
+  <string name="file_deleted">파일이 삭제되었습니다</string>
+  <string name="in_call_record_error">통화 녹음 오류.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">녹음 중 ...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">파일이 저장되었습니다 </string>
+  <string name="file_saved_interrupt">녹음이 중단되어 녹음된 내용이 저장되었습니다.</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">파일 저장이 취소되었습니다.</string>
 </resources>

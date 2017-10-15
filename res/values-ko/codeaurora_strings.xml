@@ -30,12 +30,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">녹음된 음성을 저장할까요?</string>
+  <string name="rename_dialog_title">이름 변경</string>
+  <string name="rename_dialog_info_null">파일이름을 입력하세요.</string>
+  <string name="rename_dialog_info_exists">이 이름은 이미 존재합니다.</string>
+  <string name="rename_dialog_info_length_limit">최대 글자 제한에 도달 했습니다.</string>
+  <string name="rename_dialog_save">저장</string>
+  <string name="delete_dialog_confirm">삭제</string>
   <plurals name="delete_selection_message">
     <item quantity="other">선택한 항목을 삭제할까요?</item>
   </plurals>
   <string name="share_title">공유</string>
+  <string name="file_list_activity_label">음성녹음 목록</string>
+  <string name="file_list_empty">기록이 없습니다</string>
+  <string name="file_list_FM">FM 녹음</string>
+  <string name="file_list_call">음성통화 녹음</string>
   <string name="action_mode_menu_edit">편집</string>
   <string name="action_mode_menu_share">공유</string>
+  <string name="action_mode_menu_delete">삭제</string>
+  <plurals name="action_mode_selected">
+    <item quantity="other">%d 항목이 선택되었습니다.</item>
+  </plurals>
   <string name="action_mode_select_all">모두 선택</string>
   <string name="action_mode_deselect_all">모두 선택취소</string>
 </resources>

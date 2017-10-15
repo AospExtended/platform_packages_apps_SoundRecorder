@@ -19,7 +19,7 @@
   <string name="app_name">Perekam Suara</string>
   <string name="folder_name">Merekam</string>
   <!-- Screen title before and during recording -->
-  <string name="record_your_message">Tulis pesan Anda</string>
+  <string name="record_your_message">Rekam pesan anda</string>
   <!-- Screen title after recording -->
   <string name="message_recorded">Pesan direkam</string>
   <!-- Screen title while playing back a recording -->
@@ -29,7 +29,7 @@
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">Jeda</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
-  <string name="recording_stopped">Perekaman dihentikan</string>
+  <string name="recording_stopped">Rekaman dihentikan</string>
   <!-- label shown when there is not enough space to record something -->
   <string name="storage_is_full">Penyimpanan penuh</string>
   <!-- label shown when the recording has reached maximum allowed file size -->
@@ -39,9 +39,9 @@
   <!-- label shown when there is no sd card available to record to -->
   <string name="insert_sd_card" product="default">Masukkan kartu SD</string>
   <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
-  <string name="min_available"><xliff:g id="MINUTES">%d</xliff:g> menit yang tersedia</string>
+  <string name="min_available"><xliff:g id="minutes">%d</xliff:g> menit tersedia</string>
   <!-- label shown when there is less than 1 minute of space left to record -->
-  <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> yang tersedia</string>
+  <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>d tersedia</string>
   <!-- button to accept the current recording and return it to the caller -->
   <string name="accept">Selesai</string>
   <!-- button to discard the current recording and return to the caller -->
@@ -57,9 +57,9 @@
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy- HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
-  <string name="audio_db_artist_name">Rekaman Anda:</string>
+  <string name="audio_db_artist_name">Rekaman anda</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
-  <string name="audio_db_album_name">Perekaman audio</string>
+  <string name="audio_db_album_name">Rekaman suara</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">Rekaman saya</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
@@ -69,17 +69,17 @@
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
   <string name="error_record_interrupted">Rekaman terganggu</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
-  <string name="error_app_internal">Kesalahan aplikasi internal.</string>
+  <string name="error_app_internal">Kesalahan internal aplikasi</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
-  <string name="error_app_unsupported">Format tidak mendukung</string>
+  <string name="error_app_unsupported">Format yang tidak didukung</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
-  <string name="error_mediadb_new_record">Tidak dapat menyimpan audio yang direkam.</string>
+  <string name="error_mediadb_new_record">Tidak dapat menyimpan rekaman suara.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
   <string name="error_mediadb_incall">Pilihan ini didukung, hanya saat dalam panggilan</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
   <string name="error_mediadb_aacincall">Panggilan suara rekaman AAC tidak didukung</string>
   <!-- shown as the dialog title when user selects recording format -->
-  <string name="format_setting">Jenis file</string>
+  <string name="format_setting">Tipe berkas</string>
   <string name="format_setting_aac_item">AAC</string>
   <string name="format_setting_amr_item">AMR</string>
   <string name="format_setting_3gpp_item">3GPP</string>

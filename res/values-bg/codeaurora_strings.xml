@@ -30,14 +30,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Запишете записа?</string>
+  <string name="rename_dialog_title">Преименувай</string>
+  <string name="rename_dialog_info_null">Името на файла не може да бъде празно.</string>
+  <string name="rename_dialog_info_exists">Името вече съществува.</string>
+  <string name="rename_dialog_info_length_limit">Достигнат е максималния брой знаци.</string>
+  <string name="rename_dialog_save">Запис</string>
   <string name="delete_dialog_confirm">Изтриване</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Да се изтрие ли избраното?</item>
     <item quantity="other">Да се изтрият ли избраните?</item>
   </plurals>
   <string name="share_title">Споделяне</string>
+  <string name="file_list_activity_label">Списък записи</string>
+  <string name="file_list_empty">Няма записи</string>
+  <string name="file_list_FM">FM запис</string>
+  <string name="file_list_call">Запис на обаждането</string>
+  <string name="action_mode_menu_edit">Редактиране</string>
   <string name="action_mode_menu_share">Споделяне</string>
   <string name="action_mode_menu_delete">Изтриване</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">Избран е %d елемент</item>
+    <item quantity="other">Избрани %d елементи</item>
+  </plurals>
   <string name="action_mode_select_all">Избиране на всички</string>
   <string name="action_mode_deselect_all">Премахване на избора</string>
 </resources>

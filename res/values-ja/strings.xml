@@ -63,6 +63,7 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">SDカードにアクセスできません。</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">録音は中断されました</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">内部アプリケーションエラーが発生しました。</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
@@ -83,7 +84,12 @@
   <string name="storage_setting_local_item">端末のストレージ</string>
   <string name="no_phonestorage">端末のストレージがマウントされていません</string>
   <string name="keyboard">キーボード</string>
+  <string name="file_deleted">ファイルを削除しました！</string>
+  <string name="in_call_record_error">通話の録音エラーです。</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">録音中 ...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">ファイルが保存されました</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">ファイルは破棄されました</string>
 </resources>

@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">Звукозаписвач</string>
+  <string name="folder_name">Записване</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">Запишете съобщението си</string>
   <!-- Screen title after recording -->
@@ -24,7 +25,9 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">Преглед на съобщението</string>
   <!-- Label shown during recording -->
+  <string name="recording">Записване</string>
   <!-- Label shown when recording is paused -->
+  <string name="recording_paused">Пауза</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
   <string name="recording_stopped">Записването спря</string>
   <!-- label shown when there is not enough space to record something -->
@@ -44,10 +47,15 @@
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Отхвърляне</string>
   <!-- acknowlegement button in a number of dialogs -->
+  <string name="button_ok">Да</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Натиснете: 0-MIC 1-Rx 2-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB А-AMR-WB-3GPP и натиснете запис</string>
+  <string name="press_record2">Натиснете запис</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Натиснете: 0-MIC 1-Rx 2-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB А-AMR-WB-3GPP и натиснете запис</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format"> ГГГГ-ММ-ДД ЧЧ:мм:сс </xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Вашите записи</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -59,15 +67,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Няма достъп до SD картата.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Записване на прекъснат</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Вътрешна грешка в приложението</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Неподдържан формат</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Аудиозаписът не можа да бъде запазен.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Тази опция се поддържа само докато сте в разговор</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">Запис на повикване в ACC формат не се поддържа</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Тип файл</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Място за съхранение</string>
+  <string name="storage_setting_sdcard_item">SD карта</string>
+  <string name="storage_setting_local_item">Вътрешно хранилище</string>
+  <string name="no_phonestorage">Вътрешното хранилище е премахнато</string>
+  <string name="keyboard">Клавиатура</string>
+  <string name="file_deleted">Файлът е изтрит!</string>
+  <string name="in_call_record_error">Грешка в запис по време на разговор.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Запис...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Файлът е записан</string>
+  <string name="file_saved_interrupt">Записването е спряно и запазено</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Файла е премахнат</string>
 </resources>

@@ -30,12 +30,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">録音を保存しますか？</string>
+  <string name="rename_dialog_title">リネーム</string>
+  <string name="rename_dialog_info_null">ファイル名は空にすることはできません。</string>
+  <string name="rename_dialog_info_exists">この名前は既に存在しています。</string>
   <string name="rename_dialog_info_length_limit">文字数の上限に達しました。</string>
+  <string name="rename_dialog_save">保存</string>
   <string name="delete_dialog_confirm">削除</string>
   <plurals name="delete_selection_message">
     <item quantity="other">アイテムを削除しますか？</item>
   </plurals>
   <string name="share_title">共有</string>
+  <string name="file_list_FM">FM録音</string>
+  <string name="file_list_call">通話録音</string>
   <string name="action_mode_menu_edit">編集</string>
   <string name="action_mode_menu_share">共有</string>
   <string name="action_mode_menu_delete">削除</string>
